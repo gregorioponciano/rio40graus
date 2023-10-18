@@ -9,7 +9,7 @@ function clickMenu() {
     }
 
 function mudouTamanho() {
-            if (window.innerWidth >= 600) {
+            if (window.innerWidth >= 768) {
                 itens.style.display = 'inline-block'
             } else {
                 itens.style.display = 'none'

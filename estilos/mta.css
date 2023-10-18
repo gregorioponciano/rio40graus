@@ -23,6 +23,8 @@
 }
 
 .contatos {
+    display: flex;
+    justify-content: center; 
                color: white;
                width: 50vw;
                margin: auto;             
@@ -35,6 +37,7 @@
 .img-contato {
                 text-align: center;
                 width: 30px;
+                padding: 10px;
 }
 
 .produzido {

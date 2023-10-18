@@ -85,11 +85,15 @@ header {
 .contatos {
                         color: white;
                         width: 50vw;
-                        margin: auto;             
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;            
 }
 
 .p-contato {    
                         padding-bottom: 10px;
+                        padding: 10px;
+                        text-align: center;
                         
                         
                         text-align: center;
@@ -97,7 +101,7 @@ header {
 
 .img-contato {
                         text-align: center;
-                        width: 30px;
+                        width: 30px; 
                         
 }
 

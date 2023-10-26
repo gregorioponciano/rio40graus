@@ -8,6 +8,7 @@
 * {    
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 :root { --cor-menu: rgb(34, 51, 242);
@@ -19,7 +20,6 @@
 body { 
                 background-color: var(--cor-body);
                 width: 100vw;
-
 }
 .headcontainerloja {
                 width: 100vw;
@@ -41,7 +41,7 @@ body {
 header { 
             background-color: var(--cor-menu);
             margin-top: 1px;
-            margin-bottom: 5px;         
+            margin-bottom: 5px;       
 }
 
 .menuheader:hover {
@@ -80,7 +80,7 @@ h2 > a {
 }
 
 #burg:hover {
-                background-color: #FF4F18;
+                background-color: #18a3ff;
                 color: black;               
 }
 
